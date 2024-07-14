@@ -44,7 +44,7 @@
     display: block;
 }
 
-body{
+body {
     background-color: white;
 }
 .menu{
@@ -342,7 +342,7 @@ p {
 }
 
 /*map Bas de page */
-.filtre{
+.map{
     position: relative;
     width: 100%;
     height: 35rem;
@@ -353,6 +353,14 @@ iframe{
     margin-top: 100px;
 }
 /*fin map Bas de page*/
+.form{
+    position: absolute;
+    displ
+
+}
+/*formulaire de contact*/
+
+/* fin formulaire de contact*/
 
 /*début footer*/
 /* fin début footer*/
