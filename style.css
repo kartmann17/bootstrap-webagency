@@ -338,6 +338,13 @@ p {
 .Mac{
     display:block;
 }
+/* filtre bleu map */
+.color-map{
+    background-color: rgba(90, 175, 210, 0.3);
+    position:absolute;
+    height:35rem;
+    width: 100%;
+}
 
 /*map Bas de page */
 .map{
