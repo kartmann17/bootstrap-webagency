@@ -37,6 +37,18 @@
     top: -8px;
     left: 35%;
     color: blue;
+    animation: bille 5s infinite
+}
+@keyframes bille {
+    0%{
+        translate: -100px;
+    }
+    50%{
+        translate: 100px;
+    }
+    100%{
+        translate: -100px
+    }
 }
 /* FIN LIGNE ET POINT BODY*/
 
@@ -261,28 +273,38 @@ nav-item{
 
 i{
     font-size: 20px;
-    color: rgba(0, 221, 255, 0.807);
+    color: black;
     margin-left: 23px;
     position: absolute;
 }
 
-.entourage{
+.entourage {
     width: 80px;
     height: 70px;
     background-color: white;
     border: solid 1Px blue;
     border-radius: 50%;
+    animation: 5s rotation linear infinite;
+}
+
+@keyframes rotation{ 
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 .point{
     position: absolute;
-    margin-left: 35px;
-    margin-top: -15px;
-    animation: infinite;
+    margin-left: 31px;
+    margin-top: 5px;
 }
-
 .point i{
     color: rgb(255, 0, 60);
 }
+
+
 
 /*fin icones générale*/
 
@@ -339,6 +361,10 @@ p {
 .Mac{
     display:block;
 }
+/* section map */
+.secmap{
+    margin-top: 100px;
+}
 /* filtre bleu map */
 .color-map{
     background-color: rgba(90, 175, 210, 0.3);
@@ -380,6 +406,7 @@ iframe{
 .formulaire p{
     text-align: start;
 }
+
 /* fin formulaire de contact*/
 
 
